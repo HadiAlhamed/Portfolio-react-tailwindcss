@@ -4,12 +4,6 @@ import { Send, Loader2 } from 'lucide-react';
 import { cn } from '../utils';
 import { useToast } from '../hooks/use-toast';
 
-// Create an interface for form data
-interface ContactFormData {
-    name: string;
-    email: string;
-    message: string;
-}
 
 export default function ContactForm() {
     // And use it with useRef:
